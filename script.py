@@ -4,7 +4,6 @@ from openpyxl import Workbook
 from openpyxl.styles import Font
 from selenium import webdriver
 from bs4 import BeautifulSoup
-from selenium.webdriver.chrome.options import Options
 
 driver = webdriver.Chrome()
 driver.get('https://www.imdb.com/chart/toptv')
